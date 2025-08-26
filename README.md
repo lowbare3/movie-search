@@ -33,9 +33,11 @@ python -m unittest tests/test_movie_search.py -v
 ```bash
 from movie_search import search_movies
 
-results = search_movies("spy thriller in Paris", top_n=5)
+results = search_movies("spy thriller in Paris", top_n=3)
 print(results)
 ```
+Should see the results as shown below:
+![Search Result](img/res.png)
 
 
 
