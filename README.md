@@ -1,15 +1,13 @@
 # Movie Semantic Search Assignment
 
-![Python package](https://github.com/Varsha-Narla/movie-search-assignment/actions/workflows/python-tests.yml/badge.svg)
-
 This repository contains my solution for the semantic search on movie plots assignment.
 The system uses [Sentence Transformers](https://www.sbert.net/) to embed movie plots and allows users to search for semantically similar movies using cosine similarity.
 
 ## Setup
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/Varsha-Narla/movie-search-assignment.git
-cd movie-search-assignment
+git clone https://github.com/lowbare3/movie-search.git
+cd movie-search
 python -m venv ai_sys
 ai_sys\Scripts\activate
 pip install -r requirements.txt
@@ -34,6 +32,7 @@ from movie_search import search_movies
 results = search_movies("spy thriller in Paris", top_n=5)
 print(results)
 ```
+
 
 
 
