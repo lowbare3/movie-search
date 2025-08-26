@@ -35,7 +35,8 @@ results = search_movies("spy thriller in Paris", top_n=3)
 print(results)
 ```
 Should see the results as shown below:
-![Search Result](img/result.png)
+![Search Result](img/result1.png)
+
 
 
 
