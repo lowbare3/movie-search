@@ -8,17 +8,17 @@ Clone the repository and install dependencies:
 ```bash
 git clone https://github.com/lowbare3/movie-search.git
 cd movie-search
-python -m venv ai_sys
-ai_sys\Scripts\activate
+python -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
+```
 
-```
 ## Running the notebook
-Launch Jupyter and open the solution notebook:
+Open the notebook in VS Code or Jupyter:
 ```bash
-jupyter notebook
+jupyter notebook movie_search_solution.ipynb
 ```
-Open movie_search_solution.ipynb to view the solution.
+Open movie_search_solution.ipynb and run the code cells to view the solution.
 
 ## Testing
 Unit tests are included under tests/test_movie_search.py. Run them with:
@@ -27,6 +27,7 @@ python -m unittest tests/test_movie_search.py -v
 ```
 The test results are given below:
 ![Search Result](img/res.png)
+
 ## Usage
 ```bash
 from movie_search import search_movies
@@ -36,6 +37,7 @@ print(results)
 ```
 Should see the results as shown below:
 ![Search Result](img/result1.png)
+
 
 
 
