@@ -3,6 +3,10 @@
 This repository contains my solution for the semantic search on movie plots assignment.
 The system uses [Sentence Transformers](https://www.sbert.net/) to embed movie plots and allows users to search for semantically similar movies using cosine similarity.
 
+## Example Search Result
+
+![Search Result](img/res.png)
+
 ## Setup
 Clone the repository and install dependencies:
 ```bash
@@ -32,6 +36,7 @@ from movie_search import search_movies
 results = search_movies("spy thriller in Paris", top_n=5)
 print(results)
 ```
+
 
 
 
